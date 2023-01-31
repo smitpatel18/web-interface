@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{
+    box-sizing: border-box;
+}
+.raw::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+html{
+    font-family: "Lucida Sans", sans-serif;
+}
+.header{
+    background-color:lightblue;
+    color:darkred;
+    padding: 5px;
+    font-size: large;
+    border-radius: 15px; 
+}
+.smit ul li{
+    list-style:none;
+    margin-bottom: 7px;
+    background-color:lightblue;
+    color:darkred;
+    box-shadow: 0 1px 3px black;
+    border-radius: 5px;
+    padding: 8px; 
+}
+.smit ul li:hover{
+    background-color:burlywood;   
+}
+.smit ul li a{
+    text-decoration: none;
+    color: darkred;
+    font-size: 25px;
+    
+}
+.aside{
+    background-color:lightblue;
+    color:darkred;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 1px 10px black;
+    border-radius: 15px; 
+}
+.footer{
+    background-color:lightblue;
+    color: darkred;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    padding-bottom: 20%;   
+}
+.het p {
+   
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <h1>
+            India
+        </h1>
+    </div>
+    <div class="raw">
+        <div class="col-3 smit">
+            <ul>
+                <li><a href="">Flight</a></li>
+                <li><a href="">City</a></li>
+                <li><a href="">Village</a></li>
+                <li><a href="">The island</a></li>
+            </ul>
+        </div>
+    <div class="col-6 het">
+        <h1>The city</h1>
+        <p>Delhi is the capital of the india region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    </div>
+    <div class="col-3right">
+        <div class="aside">
+            <h2>where</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, non.</p>
+            <h2>what</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, omnis?</p>
+            <h2>why</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa odio facilis sapiente!</p>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus recusandae dolor dolore ipsam qui assumenda laboriosam nesciunt voluptate. Debitis quam corrupti in atque cupiditate eius.</p>
+    </div>
+</body>
+</html>
